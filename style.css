@@ -1,0 +1,274 @@
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 100%;
+	background: #ffffff;
+}
+.wrap
+{
+	width: 80%;
+	margin: 0 auto;
+}
+/* start header */
+.header{
+	padding: 1.3em 0em;
+}
+
+/******start-nav********/
+.nav {
+	float: right;
+	margin-top: 0.82em;
+}
+.nav > ul > li {
+  	display:inline-block;
+}
+.nav > ul > li.active a{
+	color: #ffffff;
+	background: #ffffff;
+}
+.nav > ul > li > a {
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	display: block;
+	font-size: 1em;
+	color: #ffffff;
+	padding: 0.5em 1em;
+	-webkit-transition: 0.9s;
+	-moz-transition: 0.9s;
+	-o-transition: 0.9s;
+	transition: 0.9s;
+}
+.nav > ul > li > a:hover {
+	color: #ffffff;
+	background: #d0a5a5;
+}
+
+.image_bg{
+	background-color: #553232;
+	background-size: 100% 100%;
+	}
+.text {
+	padding: 20% 0%;
+	
+}
+.text h2 {
+	color: #ffffff;
+	font-size: 3em;
+	font-weight: 700;
+	z-index: 10;
+	text-align: center;
+	position: relative; /* относительное позиционирование */
+    margin-top: -140px;
+	
+	
+}
+.text h2 span {
+	font-size: 1em;
+	font-weight: 300;
+	
+}
+.text p {
+	color: #FFF;
+	font-size: 1.2em;
+	text-align: center;
+	margin: 1.5em auto;
+	width: 77%;
+	font-weight: 200;
+	line-height: 1.4em;
+}
+.text .da-butt {
+	background-color: #a97b7b;
+	display: block;
+	color: #FFF;
+	font-size: 1em;
+	text-transform: uppercase;
+	margin: 0 auto;
+	width: 10%;
+	text-align: center;
+	padding: 1em 2em;
+	
+}
+
+.butt-img:hover{
+	width: 50px;
+	height: 50px;
+	display: block;
+	background: url(https://myrusakov.ru/images/articles/html_coding_buttonimgh.png);
+}
+
+* {box-sizing: border-box}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #dcdcdc;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #c09898;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #c09898;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: rgb(22, 37, 133);
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.container-well {    position: relative;
+	-webkit-transition: all 1s ease; /*плавный переход между экшенами Chrome/Safari */
+	-moz-transition: all 1s ease;/*переход между экшенами Firefox */
+	-o-transition: all 1s ease; /*медленный переход между экшенами Opera */
+	transition: all 1s ease;
+  }
+  .container-well h2{   color:#4d4d4d; /*цвет заголовка */
+	font-size: 2em; /*размер заголовка */
+	padding-bottom: 0.5em; /*поля под заголовком */
+	text-align: center; /*выравнивание заголовка по центру */
+  }
+  .container-well p{   color:#444444; /*цвет текста */
+	font-size: 1em; /*размер шрифта */
+	padding-bottom: 1em; /*поле под абзацем */
+	text-align: center; /*выравнивание текста по центру */
+  }
+
+  .button {
+	display: inline-block; /* строчно-блочный */
+	margin: 100px 400px; /* отступы от края браузера */
+	padding: 20px 60px; /* расстояние от текста до края кнопки */
+	background-color: #c09898; /* цвет кнопки  */
+	box-shadow: 0px 6px #f7f8e8; /* задана тень */
+	border-radius: 5px; /* скругление углов */
+	font-size: 20px; /* размер шрифта */
+	text-transform: uppercase; /* трансформировать в заглавные буквы */
+	text-decoration: none; /* не подчеркивать ссылку */
+	transition: 0.2s; /* плавный ховер эффект */
+	color: #f7f8e8; /* цвет текста на кнопке */
+  }
+  
+  .button:hover {
+	background-color: #949a9a; /* замена цвета кнопки при наведении */
+	}
+
+.neu{
+	background-color: #f1f1f1;
+  	text-align: center;
+}
+
+.image_neu{
+	background-color: #f1f1f1;
+	background-size: 100% 100%;
+	}
+
+.clear{clear:both;} /* отмена float */
+
+.about{
+	color:#fff;
+	background-color: #a87a7a; /* коричневый фон секции "Обо мне"  */
+	text-align:center; /* позиционирование текста */
+	padding: 5em 0em; /* отступы для текста */
+   }
+	.wrap_about{
+	width: 90%; /* занимаемая ширина блоков по отношению к браузеру */
+	margin: 0 auto; /* расположение секций по центру */
+   }
+  .about h2{
+	  font-size:2em;
+	  padding-bottom: 0.5em; /* отступ снизу для заголовка */
+   }
+  .about p{
+	font-size:1em;
+	padding-bottom: 4em; /* отступ снизу для параграфа */
+   }
+  .grid{
+	width: 30%; /* ширина белого блока */
+	float: left; /* выстраивание в ряд трех белых блоков */
+	background-color: #fff; /* цвет блока */
+	margin: 0 1.5% 0 1.5%; /* отступы для белых блоков */
+	border: 1px solid black;
+	min-height: 400px; /* минимальная высота белых блоков */
+   }
+  .grid  h3{ /* цвет,размер и верхний отступ для заголовка белого блока */
+	color: #292828;
+	font-size: 1.4em;
+	margin-top: 15px;
+   }
+  .grid  p { /* значения свойств для параграфа белого блока */
+	color: #444444;
+	font-size: 1.02em;
+	text-align: left;
+	padding: 1em 1em 2em 1em;
+	line-height: 1.9em;
+   }
+
+   .button_user {
+	display: inline-block; /* строчно-блочный */
+	padding: 20px 60px; /* расстояние от текста до края кнопки */
+	background-color: rgb(22, 37, 133); /* цвет кнопки  */
+	box-shadow: 0px 6px #f7f8e8; /* задана тень */
+	border-radius: 5px; /* скругление углов */
+	font-size: 20px; /* размер шрифта */
+	text-transform: uppercase; /* трансформировать в заглавные буквы */
+	text-decoration: none; /* не подчеркивать ссылку */
+	transition: 0.2s; /* плавный ховер эффект */
+	color: #f7f8e8; /* цвет текста на кнопке */
+  }
+
+  .grid1{
+	width: 30%; /* ширина белого блока */
+	float: left; /* выстраивание в ряд трех белых блоков */
+	background-color: #fff; /* цвет блока */
+	margin: 0 1.5% 0 1.5%; /* отступы для белых блоков */
+	border: 1px solid black;
+	min-height: 200px; /* минимальная высота белых блоков */
+   }
+
+.notes{
+	background-color: #fff;
+
+}
+
+.cur_note{
+	display: inline-block;
+}
+
+.note_but{
+	display: inline-block;
+	font-size: 20px;
+	background-color: #008CBA;
+}
